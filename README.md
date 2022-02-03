@@ -1,1 +1,1 @@
-# NextJS-TailwindCSS-TypeScript-Starter-Mini
+# NextJS (TailwindCSS + TypeScript) Starter Mini
