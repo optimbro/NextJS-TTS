@@ -36,6 +36,7 @@ npm install eslint-config-airbnb-typescript @typescript-eslint/eslint-plugin  @t
   "ignorePatterns": ["tailwind.config.js", "next.config.js"],
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
+    "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
       1,
@@ -46,6 +47,7 @@ npm install eslint-config-airbnb-typescript @typescript-eslint/eslint-plugin  @t
     "react/prop-types": "off", // Since we do not use prop-types
     "react/require-default-props": "off", // Since we do not use prop-types
     "arrow-body-style": "off",
+
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
