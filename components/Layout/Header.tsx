@@ -1,8 +1,9 @@
 import { Transition } from '@headlessui/react';
 import Link from 'next/link';
 import { useState } from 'react';
-import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 import { GrMenu } from 'react-icons/gr';
+import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
+
 const Header: React.FC = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -13,7 +14,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-slate-100 dark:bg-slate-700 ">
       <div className="flex justify-between px-4 py-3">
-        <div>Logo</div>
+        <div>Acme Company</div>
         {/* Desktop Menu */}
         <nav className="items-center hidden space-x-2 sm:flex">
           <ThemeSwitcher />
